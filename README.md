@@ -1,5 +1,5 @@
 ## Py-OS
-************************************************
+
 **[Created by Okerew](https://okral.glitch.me)**
 ************************************************
 If you have trouble with the system use the `help` commamd
