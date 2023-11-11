@@ -1,8 +1,4 @@
 # Py-OS
-1. Copyright under mit license.
-2. If u want to distribute in this or other forms please credit the original source.
-3. Created with python.
-
 
 **[Created by Okerew](https://okral.glitch.me)**
 
