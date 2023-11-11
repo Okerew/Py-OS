@@ -1,0 +1,6 @@
+requests
+prompt_toolkit
+beautifulsoup4
+PyPDF2
+Pillow
+reportlab
