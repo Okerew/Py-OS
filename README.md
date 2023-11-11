@@ -7,7 +7,7 @@ To run the system do `cd {where_pyos_is_stored}`
 In the folder where pyos is stored `cd Py-OS`
 
 Then to run`python main.py`
-
+************************************************
 If you have trouble with the system use the `help` commamd
 
 If u want to run a script with `code_runner` that has subfiles use this code
