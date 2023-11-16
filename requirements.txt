@@ -5,3 +5,4 @@ PyPDF2
 Pillow
 reportlab
 termcolor
+gitpython
