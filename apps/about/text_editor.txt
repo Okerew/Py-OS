@@ -1,0 +1,6 @@
+A basic text editor like vim for Py-OS
+:w to save a file
+:r to read a file
+:e to enter command mode
+:i to enter insert mode
+:q to quit the text_editor
