@@ -5,7 +5,6 @@ import platform
 import shutil
 import subprocess
 import sys
-import git
 import code_runner
 from run_apps import commands
 import datetime
@@ -33,7 +32,6 @@ class CoreCommands:
             "about": "Tells information about an app",
             "alias": "Manage aliases (shortcuts)",
             "change_password": "allows you to change your password",
-            "uptade": "uptades the system",
             "backup": "backups the system",
             "time": "shows the time(year,month,day,hour, minute, second"
         }
@@ -78,8 +76,6 @@ class CoreCommands:
                 self.change_password()
             elif command == "time":
                 self.show_datetime()
-            elif command == "update": 
-                self.update_system()
             elif command == "backup":
                 self.backup_system()
         else:
@@ -308,24 +304,6 @@ class CoreCommands:
 
       with open(self.user_data_file, "w") as file:
           file.write(user_data)
-    
-    def update_system(self):
-      try:
-          repo_url = "https://github.com/Okerew/Py-OS.git"
-          repo_folder = "Py-OS" 
-          git.Repo.clone_from(repo_url, repo_folder)
-          self.backup_system()
-          print("Creating a backup of the system.")
-          for root, _dirs, files in os.walk(repo_folder):
-              for file in files:
-                  src_path = os.path.join(root, file)
-                  dest_path = os.path.join(self.current_folder, file)
-                  shutil.copy2(src_path, dest_path)
-
-          print("System updated successfully. Restart the system to apply changes.")
-      except Exception as e:
-          print(f"Error updating system: {e}")
-    
     def backup_system(self):
       timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
       backup_folder = f"backup_{timestamp}"
