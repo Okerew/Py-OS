@@ -21,3 +21,4 @@ If main.py crashes at start try to install libraries
 manually  
 `pip install -r requirements.txt`
 
+In replit set the run command in input as `python main.py`
