@@ -1,6 +1,6 @@
 ## Py-OS
-To download, do `git clone https://github.com/Okerew/Py-OS` or download the code as .zip
 **[Created by Okerew](https://okral.glitch.me)**
+# To download, do `git clone https://github.com/Okerew/Py-OS` or download the code as .zip
 ************************************************
 To run the system do `cd {where_pyos_is_stored}`
 
