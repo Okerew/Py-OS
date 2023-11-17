@@ -23,3 +23,7 @@ manually
 `pip install -r requirements.txt`
 
 In replit set the run command in input as `python main.py`
+***************************************************************************************
+If you want to use only with a terminal enviroment download the terminal_version branch 
+
+If you want with a graphical browser download the Graphical_Web_broswser branch 
